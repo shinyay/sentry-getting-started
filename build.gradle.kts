@@ -20,6 +20,7 @@ dependencies {
 	implementation("io.sentry:sentry-spring-boot-starter:5.4.3")
 	implementation("io.sentry:sentry-logback:5.4.3")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0-RC")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
